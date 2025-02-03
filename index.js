@@ -10,7 +10,7 @@ console.log(`Hallo ${name} du bist ${alter} jahre alt und bist ${größe}m groß
 
 let bestätigung = fragen.question ("sind die angaben richtig? y:ja n:nein ")
 
-if (bestätigung.toLowerCase ==="y"){
+if (bestätigung ==="y"){
     console.log("danke für die deine angaben")
 } else{
     console.log("okey du hast angeben  das die angeben falsch sind bitte beantworte die fragen erneut ")
